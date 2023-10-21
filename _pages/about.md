@@ -12,10 +12,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="display:block;">Prof. Dr. Wentao Zhang</p> 
-    <p style="display:block;">position:...</p>
+    <p style="display:block;">Head of DAIR group</p>
     <a style="display:block;" href="mailto:{{ site.email | encode_email }}">
       <i class="fas fa-envelope"></i>
-    email:...</a>
+    wentao.zhang@pku.edu.cn</a>
     <p> </p>
     <p> </p>
     <p> </p>
@@ -23,7 +23,7 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-projects: true
+projects: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
