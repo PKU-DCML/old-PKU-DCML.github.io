@@ -11,9 +11,11 @@ profile:
   email: wentao.zhang@pku.edu.cn
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Prof. Dr. Wentao Zhang</p> 
-    <p>position:...</p>
-    <p>email:...</p>
+    <p style="display:block;">Prof. Dr. Wentao Zhang</p> 
+    <p style="display:block;">position:...</p>
+    <a style="display:block;" href="mailto:{{ site.email | encode_email }}">
+      <i class="fas fa-envelope"></i>
+    email:...</a>
     <p> </p>
     <p> </p>
     <p> </p>
@@ -21,7 +23,7 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-projects: false
+projects: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

@@ -280,6 +280,10 @@ scholar:
 
   source: /_bibliography/
   bibliography: papers.bib
+  # 新添加用于进行filter的
+  bibliography_default: papers.bib
+  bibliography_dataCentric: papers_dataCentric.bib
+  bibliography_physRev: papers_physRev.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
