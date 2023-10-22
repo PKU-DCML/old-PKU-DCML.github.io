@@ -7,12 +7,12 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: wentao.png
-  position: Head of the DAIR group
+  position: Head of the DCML group
   email: wentao.zhang@pku.edu.cn
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="display:block;">Prof. Dr. Wentao Zhang</p> 
-    <p style="display:block;">Head of DAIR group</p>
+    <p style="display:block;">Head of DCML group</p>
     <a style="display:block;" href="mailto:{{ site.email | encode_email }}">
       <i class="fas fa-envelope"></i>
     wentao.zhang@pku.edu.cn</a>
@@ -28,7 +28,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to the DAIR Group!
+Welcome to the DCML Group!
 We are part of the [Center of Machine Learning Research (CMLR)](https://cmlr.pku.edu.cn/){: target="_blank"} at [Peking University (PKU)](https://www.pku.edu.cn/){: target="_blank"}. 
 Together we enjoy working on **Data-centric Machine Learning**, **Graph Machine Learning**, 
 **Machine Learning Systems**, and **Interdisciplinary Applications**.
